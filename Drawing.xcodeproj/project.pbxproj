@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B005721B2373041B00246E80 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005721A2373041B00246E80 /* ImagePaintView.swift */; };
+		B005721D237309BD00246E80 /* ColorCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005721C237309BD00246E80 /* ColorCycle.swift */; };
 		B0177C2A237174EE00BA0E8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0177C29237174EE00BA0E8D /* AppDelegate.swift */; };
 		B0177C2C237174EE00BA0E8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0177C2B237174EE00BA0E8D /* SceneDelegate.swift */; };
 		B0177C2E237174EE00BA0E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0177C2D237174EE00BA0E8D /* ContentView.swift */; };
@@ -19,9 +21,16 @@
 		B0177C442371A2AB00BA0E8D /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0177C432371A2AB00BA0E8D /* Arc.swift */; };
 		B0177C462371A2C900BA0E8D /* SpiroSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0177C452371A2C900BA0E8D /* SpiroSquare.swift */; };
 		B0177C482371A2E600BA0E8D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0177C472371A2E600BA0E8D /* Triangle.swift */; };
+		B05494E123728E8200ABFEA3 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05494E023728E8200ABFEA3 /* FlowerView.swift */; };
+		B055B3492373DC5800C1B323 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055B3482373DC5800C1B323 /* SpecialEffects.swift */; };
+		B055B34B2373E08F00C1B323 /* AnimatableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055B34A2373E08F00C1B323 /* AnimatableData.swift */; };
+		B055B34D2373E40000C1B323 /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055B34C2373E40000C1B323 /* AnimatablePairView.swift */; };
+		B055B34F2373EA5E00C1B323 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055B34E2373EA5E00C1B323 /* SpirographView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B005721A2373041B00246E80 /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
+		B005721C237309BD00246E80 /* ColorCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCycle.swift; sourceTree = "<group>"; };
 		B0177C26237174EE00BA0E8D /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0177C29237174EE00BA0E8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0177C2B237174EE00BA0E8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,11 @@
 		B0177C432371A2AB00BA0E8D /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
 		B0177C452371A2C900BA0E8D /* SpiroSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiroSquare.swift; sourceTree = "<group>"; };
 		B0177C472371A2E600BA0E8D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		B05494E023728E8200ABFEA3 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		B055B3482373DC5800C1B323 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
+		B055B34A2373E08F00C1B323 /* AnimatableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableData.swift; sourceTree = "<group>"; };
+		B055B34C2373E40000C1B323 /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairView.swift; sourceTree = "<group>"; };
+		B055B34E2373EA5E00C1B323 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +84,14 @@
 			children = (
 				B0177C29237174EE00BA0E8D /* AppDelegate.swift */,
 				B0177C2B237174EE00BA0E8D /* SceneDelegate.swift */,
+				B055B34E2373EA5E00C1B323 /* SpirographView.swift */,
 				B0177C2D237174EE00BA0E8D /* ContentView.swift */,
+				B055B34C2373E40000C1B323 /* AnimatablePairView.swift */,
+				B055B3482373DC5800C1B323 /* SpecialEffects.swift */,
+				B055B34A2373E08F00C1B323 /* AnimatableData.swift */,
+				B05494E023728E8200ABFEA3 /* FlowerView.swift */,
+				B005721A2373041B00246E80 /* ImagePaintView.swift */,
+				B005721C237309BD00246E80 /* ColorCycle.swift */,
 				B0177C3D2371792300BA0E8D /* PathView.swift */,
 				B0177C3F23717BD200BA0E8D /* ShapeView.swift */,
 				B0177C432371A2AB00BA0E8D /* Arc.swift */,
@@ -166,8 +187,15 @@
 			files = (
 				B0177C4023717BD200BA0E8D /* ShapeView.swift in Sources */,
 				B0177C2A237174EE00BA0E8D /* AppDelegate.swift in Sources */,
+				B005721D237309BD00246E80 /* ColorCycle.swift in Sources */,
+				B05494E123728E8200ABFEA3 /* FlowerView.swift in Sources */,
+				B005721B2373041B00246E80 /* ImagePaintView.swift in Sources */,
+				B055B34B2373E08F00C1B323 /* AnimatableData.swift in Sources */,
 				B0177C462371A2C900BA0E8D /* SpiroSquare.swift in Sources */,
+				B055B3492373DC5800C1B323 /* SpecialEffects.swift in Sources */,
 				B0177C482371A2E600BA0E8D /* Triangle.swift in Sources */,
+				B055B34F2373EA5E00C1B323 /* SpirographView.swift in Sources */,
+				B055B34D2373E40000C1B323 /* AnimatablePairView.swift in Sources */,
 				B0177C442371A2AB00BA0E8D /* Arc.swift in Sources */,
 				B0177C2C237174EE00BA0E8D /* SceneDelegate.swift in Sources */,
 				B0177C4223719E3300BA0E8D /* Star.swift in Sources */,
